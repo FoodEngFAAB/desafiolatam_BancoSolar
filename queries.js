@@ -1,5 +1,3 @@
-const { Console } = require('console')
-const { release } = require('os')
 const { Pool } = require('pg')
 
 const pool = new Pool({
